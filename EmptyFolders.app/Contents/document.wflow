@@ -69,6 +69,8 @@ def empty(directory):
     # Remove invisible files
     if '.DS_Store' in contents:
         contents.remove('.DS_Store')
+    if '.localized' in contents:
+        contents.remove('.localized')
     if 'Icon\r' in contents:
         contents.remove('Icon\r')
     if 'Icon\n' in contents:
@@ -221,7 +223,7 @@ for dirname in sys.argv[1:]:
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>316.500000:585.000000</string>
+				<string>316.500000:982.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -953,7 +955,7 @@ for dirname in sys.argv[1:]:
 		<key>windowFrame</key>
 		<string>{{382, 80}, {1029, 828}}</string>
 		<key>workflowViewScrollPosition</key>
-		<string>{{0, 43}, {633, 560}}</string>
+		<string>{{0, 379}, {633, 560}}</string>
 	</dict>
 	<key>workflowMetaData</key>
 	<dict>
