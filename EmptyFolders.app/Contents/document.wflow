@@ -268,7 +268,7 @@ for dirname in sys.argv[1:]:
 				<key>ActionParameters</key>
 				<dict>
 					<key>prompt</key>
-					<string>Liste des dossiers a jeter</string>
+					<string>Select folders to move to trash</string>
 				</dict>
 				<key>Application</key>
 				<array>
@@ -861,26 +861,26 @@ for dirname in sys.argv[1:]:
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>0CCABC96-EF1F-4010-89A2-73CECA65E1CA</key>
+		<key>23F86F5B-96B4-4E67-8A5F-4A19C58A155E</key>
+		<dict>
+			<key>from</key>
+			<string>73D75D47-11D7-4485-B4B9-2214C097F0AB - 73D75D47-11D7-4485-B4B9-2214C097F0AB</string>
+			<key>to</key>
+			<string>8845CA52-B3B8-43E7-8FB1-7B7C0E81498A - 8845CA52-B3B8-43E7-8FB1-7B7C0E81498A</string>
+		</dict>
+		<key>4592E632-C318-4916-BC34-C9F6DDD0F58F</key>
 		<dict>
 			<key>from</key>
 			<string>63857F5B-E4A6-4019-9921-6852FD6DF4F8 - 63857F5B-E4A6-4019-9921-6852FD6DF4F8</string>
 			<key>to</key>
 			<string>3CC1E8D2-8997-4D2F-88F2-709ABA639003 - 3CC1E8D2-8997-4D2F-88F2-709ABA639003</string>
 		</dict>
-		<key>305E757A-6EC7-4A8E-A327-86CDD77B6A83</key>
+		<key>6666A33A-C232-46F0-AC5C-732F2C79F5A4</key>
 		<dict>
 			<key>from</key>
 			<string>3CC1E8D2-8997-4D2F-88F2-709ABA639003 - 3CC1E8D2-8997-4D2F-88F2-709ABA639003</string>
 			<key>to</key>
 			<string>73D75D47-11D7-4485-B4B9-2214C097F0AB - 73D75D47-11D7-4485-B4B9-2214C097F0AB</string>
-		</dict>
-		<key>C1A3D3A4-AF3E-409D-B69B-63672D430DE3</key>
-		<dict>
-			<key>from</key>
-			<string>73D75D47-11D7-4485-B4B9-2214C097F0AB - 73D75D47-11D7-4485-B4B9-2214C097F0AB</string>
-			<key>to</key>
-			<string>8845CA52-B3B8-43E7-8FB1-7B7C0E81498A - 8845CA52-B3B8-43E7-8FB1-7B7C0E81498A</string>
 		</dict>
 	</dict>
 	<key>state</key>
@@ -951,9 +951,9 @@ for dirname in sys.argv[1:]:
 			</array>
 		</dict>
 		<key>windowFrame</key>
-		<string>{{621, 9}, {1029, 828}}</string>
+		<string>{{382, 80}, {1029, 828}}</string>
 		<key>workflowViewScrollPosition</key>
-		<string>{{0, 0}, {633, 560}}</string>
+		<string>{{0, 43}, {633, 560}}</string>
 	</dict>
 	<key>workflowMetaData</key>
 	<dict>
